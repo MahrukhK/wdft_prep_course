@@ -24,3 +24,10 @@ Write a loop that makes seven calls to console.log to output the following trian
 ######
 #######
 */
+
+var hash = "#";
+console.log(hash);
+for (num = 0; num < 6; num++) {
+  hash += "#";
+  console.log(hash);
+}
