@@ -1,26 +1,26 @@
 
 /* DO NOT CHANGE THESE STYLES */
-span 
+span
 {
-	display: inline-block;
-	background-color: orange;
-	border: 1px solid black;
-	width:100px;
-	height:100px;
-	padding: 0px;
-	margin: 0px;
+  display: inline-block;
+  background-color: orange;
+  border: 1px solid black;
+  width:100px;
+  height:100px;
+  padding: 0px;
+  margin: 0px;
 }
 
 body
 {
-	height: 10000px; /* this is just to make sure you can scroll */
+  height: 10000px; /* this is just to make sure you can scroll */
 }
 
 div
 {
-	height: 200px;
-	border: 5px solid blue;
-	margin: 10px;
+  height: 200px;
+  border: 5px solid blue;
+  margin: 10px;
 }
 
 /***************************/
@@ -28,42 +28,52 @@ div
 /***************************/
 
 /* FIRST ROW : FLOATS; */
-.a1 {
+.a1 { float:right;
 }
 
-.b1 {
+.b1 {float:left;
 }
 
-.c1 {
-}
+.c1 {float:right;}
 
-.d1 {
+
+
+.d1 {float:left;
+
 }
 
 /* SECOND ROW : DISPLAY */
 
-.a2 {
+.a2 {display:inline-block;
 }
 
-.b2 {
+.b2 {display:none;
 }
 
-.c2 {
+.c2 {display: inline;
+
 }
 
-.d2 {
+
+.d2 {display: block;
+
 }
 
 /* THIRD ROW : POSITION */
 
-.a3 {
+.a3 { position: absolute;
+  }
+
+.b3 { position: relative;
+  left:140px;
+  bottom:50px;
 }
 
-.b3 {
-}
+.c3 {position: relative;
+  left:500px;
+top: 50px;}
 
-.c3 {
-}
-
-.d3 {
+.d3 {position: relative;
+  left:80px;
+  bottom:160px;
 }
